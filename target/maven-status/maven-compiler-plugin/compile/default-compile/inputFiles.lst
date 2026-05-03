@@ -1,0 +1,6 @@
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/model/Event.java
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/KafkaConfig.java
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/ChiffreAffairesParVille.java
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/EventEmojis.java
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/DetecteurAnomalies.java
+/home/yesser-belhajali/tp-kafka-mini_projet/src/main/java/tn/utm/kafka/SimulateurCaisse.java

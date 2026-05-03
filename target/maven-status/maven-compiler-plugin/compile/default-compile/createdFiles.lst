@@ -1,0 +1,6 @@
+tn/utm/kafka/KafkaConfig.class
+tn/utm/kafka/DetecteurAnomalies.class
+tn/utm/kafka/model/Event.class
+tn/utm/kafka/ChiffreAffairesParVille.class
+tn/utm/kafka/SimulateurCaisse.class
+tn/utm/kafka/EventEmojis.class
