@@ -59,7 +59,7 @@ Assurez-vous que Kafka est configuré et en cours d'exécution sur `localhost:90
 
 2. **Compilez le projet** :
    ```bash
-   mvn clean compile
+   mvn clean package
    ```
    Cela télécharge les dépendances et compile les classes Java.
 
@@ -67,14 +67,9 @@ Assurez-vous que Kafka est configuré et en cours d'exécution sur `localhost:90
 
 ### Démarrage de Kafka
 
-1. Démarrez Zookeeper :
-   ```bash
-   bin/zookeeper-server-start.sh config/zookeeper.properties
-   ```
-
 2. Démarrez le serveur Kafka :
    ```bash
-   bin/kafka-server-start.sh config/server.properties
+   bin/kafka-server-start.sh kafka-data/server.properties
    ```
 
 ### Création des topics
@@ -147,7 +142,7 @@ tp-kafka-mini_projet/
 
 Le projet utilise les dépendances suivantes (vérifiées dans `pom.xml`) :
 
-- **Apache Kafka Clients** (3.7.0) : Bibliothèque cliente pour produire et consommer des messages Kafka. Version choisie pour la stabilité et la compatibilité avec Java 8.
+- **Apache Kafka Clients** (3.9.0) : Bibliothèque cliente pour produire et consommer des messages Kafka. Version choisie pour la stabilité et la compatibilité avec Java 8.
 - **Jackson Databind** (2.17.0) : Pour la sérialisation/désérialisation JSON des objets `Event`. Version récente pour la sécurité et les performances.
 
 Ces dépendances sont automatiquement gérées par Maven. Pour vérifier les versions :
@@ -163,10 +158,5 @@ mvn dependency:tree
 
 ## Auteur
 
-[Yesser Belhaj Ali]
+[Mohamed Yesser Belhaj Ali]
 
-## Licence
-
-[Spécifiez la licence si applicable, ex. : MIT]
-
-[Yesser Belhaj Ali]
